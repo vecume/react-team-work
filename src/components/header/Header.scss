@@ -6,6 +6,7 @@ header {
   }
 
   nav {
+
     ul {
       display: flex;
       gap: 20px;
@@ -13,11 +14,55 @@ header {
 
       li {
         list-style: none;
+        color: rgb(68, 63, 63);
 
         a {
           text-decoration: none;
+          color: rgb(68, 63, 63);
+
+          &:active {
+            color: rgb(68, 63, 63);
+          }
+
+          &:hover {
+            border-bottom: 2px solid  #FF8D13;
+          }
         }
       }
+
+      .menu-trigger {
+        color: rgb(68, 63, 63);
+        cursor: pointer;
+
+        span:hover {
+          border-bottom: 2px solid  #FF8D13;
+        }
+      }
+      
+      .drop-menu {
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #313136;
+        width: 100px;
+
+        li {
+          
+          a {
+            color: #fff;
+          }
+        }
+      }
+
+      .drop-menu.active {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .drop-menu.inactive {
+        opacity: 0;
+        visibility: hidden;
+      }
+
     }
   }
 }
