@@ -1,0 +1,23 @@
+header {
+
+  .header-df {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      gap: 20px;
+      margin-top: 5%;
+
+      li {
+        list-style: none;
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
