@@ -5,7 +5,7 @@ import "./Services.scss";
 export default function Services() {
   return (
     <div>
-      <SecHeaderContent headerContent={hello} content={heall} />
+      <SecHeaderContent headerContent="hello" content="heall" />
     </div>
   );
 }
