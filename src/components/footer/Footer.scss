@@ -12,19 +12,42 @@ footer {
 
   .text-box {
     position: relative;
-    left: 200px;
+    left: 280px;
+    top: 70px;
 
     h2 {
       color: #fff;
-      font-size: 31px;
+      font-size: 32px;
       width: 500px;
       text-align: center;
       word-spacing: 3px;
       letter-spacing: 0.5px;
+      line-height: 41px;
     }
 
     p {
-      color: #fff;
+      color: #CCD5E0;
+      font-size: 14px;
+      margin-left: 10%;
+      margin-top: -1%;
+    }
+
+    button {
+      margin-left: 17%;
+      margin-top: 1%;
+      padding: 14px 22px;
+      color: #FF8D13;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s ease;
+      border-radius: 1px;
+
+      &:hover {
+        background-color: #FF8D13;
+        color: #fff;
+
+      }
     }
   }
 }
