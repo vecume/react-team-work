@@ -1,0 +1,12 @@
+{
+  "title": "ABOUT US",
+  "desc": "We possess a winning combination of creative, technical and people skills that make us really fun to work with.We build dreams.",
+  "isSmall": true,
+  "buttons": [
+    {
+      "text": "Who we are",
+      "isOutline": true,
+      "id": 1
+    }
+  ]
+}

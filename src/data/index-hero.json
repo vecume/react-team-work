@@ -1,0 +1,17 @@
+{
+  "title": "We design and develop digital solutions",
+  "desc": "We're a digital agency from Uzbekistan helping users and businesses to reach their goals by designing & building meaningful digital products and interactive experiences",
+  "isSmall": false,
+  "buttons": [
+    {
+      "text": "View our services",
+      "isOutline": false,
+      "id": 1
+    },
+    {
+      "text": "Discover our work",
+      "isOutline": true,
+      "id": 2
+    }
+  ]
+}
