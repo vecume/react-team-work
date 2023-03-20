@@ -1,0 +1,46 @@
+.portfolio {
+  background: #f7f7fb;
+  padding: 25px 200px;
+}
+
+.portfolio__content {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio__content-inner {
+  padding: 0px 50px;
+
+  & h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  & p {
+    font-size: 18px;
+    line-height: 22px;
+    font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  }
+}
+
+.last-text {
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #4f4f4f;
+}
+
+.btn-white {
+  background-color: #fff;
+  border: none;
+  margin-right: 10px;
+  padding: 8px 8px;
+  border-radius: 5px;
+}
+
+.text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4f4f4f;
+}
