@@ -1,3 +1,66 @@
-h2 {
-  background-color: red;
+.servisecCard__header {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 22px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #080f20;
+}
+
+.servisecCard__content {
+  font-family: "Inter";
+  margin: 0;
+  max-width: 487px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #4f4f4f;
+  padding-bottom: 25px;
+}
+
+.servisecCard__subservices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 25px;
+}
+
+.servisecCard {
+  padding-top: 60px;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  // align-items: center;
+  gap: 70px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.servisecCard__container {
+  max-width: 520px;
+}
+
+.servisecCard__subservicesNum {
+  font-family: "Inter";
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #4f4f4f;
+}
+
+.servisecCard__subservicesContent {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #080f20;
 }

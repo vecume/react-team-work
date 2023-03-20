@@ -1,10 +1,11 @@
 import React from "react";
+import "./SecHeaderContent.scss";
 
-export default function SecHeaderContent(headerContent, content) {
+export default function SecHeaderContent({ headerContent, content }) {
   return (
     <>
-      <h2>{headerContent}</h2>
-      <p>{content}</p>
+      <h2 className="sectionHeaderText">{headerContent}</h2>
+      <p className="sectionHeaderContent">{content}</p>
     </>
   );
 }
