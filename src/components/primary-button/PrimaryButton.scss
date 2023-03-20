@@ -1,4 +1,4 @@
-.button {
+.primary-button {
   border: none;
   padding: 15px 40px;
   margin: 8px 15px;
@@ -19,5 +19,14 @@
   &--outline {
     background-color: transparent;
     border: 1px solid #ccd5e0;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    font-size: 62px;
+  }
+
+  @media only screen and (max-width: 576px) {
+    font-size: 44px;
   }
 }

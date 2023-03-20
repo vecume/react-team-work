@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../button/Button";
+import PrimaryButton from "../primary-button/PrimaryButton";
 import "./HeroBanner.scss";
 
 export default function HeroBanner({ title, desc, isSmall, buttons }) {
@@ -10,7 +10,7 @@ export default function HeroBanner({ title, desc, isSmall, buttons }) {
         <p className="hero-banner__desc">{desc}</p>
         {buttons
           ? buttons.map((item) => (
-              <Button
+              <PrimaryButton
                 key={item.id}
                 text={item.text}
                 isOutline={item.isOutline}
