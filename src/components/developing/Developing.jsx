@@ -35,7 +35,7 @@ export default function Developing() {
               <p className="text-line__developing">Mobile apps</p>
             </div>
             <div className="line-boxes">
-              <span className="line-developing"></span>
+              <spBan className="line-developing"></spBan>
               <p className="text-line__developing">Platforms and portals</p>
             </div>
             <div className="line-boxes last-box__line">
