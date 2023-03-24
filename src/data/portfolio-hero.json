@@ -1,0 +1,12 @@
+{
+  "title": "Our portfolio",
+  "desc": "We love do your job well. No matter what you hand over to you or your company, we will be happy to do it. Let's create something amazing together",
+  "isSmall": true,
+  "buttons": [
+    {
+      "text": "Discover our work",
+      "isOutline": true,
+      "id": 1
+    }
+  ]
+}
