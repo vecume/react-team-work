@@ -1,0 +1,55 @@
+header {
+  background-color: #080f20;
+  height: 765px;
+  width: 100%;
+  margin-bottom: 100px;
+  position: relative;
+  display: grid;
+}
+
+.h2-header {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 76px;
+  line-height: 92px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #ffffff;
+  transform: translateY(180px);
+}
+
+.info-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #ccd5e0;
+  transform: translateY(215px);
+}
+
+.link-header {
+  border: 1.5px solid #ccd5e0;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 15px 40px;
+  margin-top: 300px;
+  width: 200px;
+  margin-left: 550px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
