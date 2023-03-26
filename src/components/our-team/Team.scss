@@ -6,21 +6,23 @@
   row-gap: 50px;
   column-gap: 50px;
   grid-template-columns: auto auto auto;
-  // margin: 0;
   .person {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 17px;
-    h6 {
-      margin: 0;
+    text-align: start;
+    .person_name {
       font-weight: 600;
       font-size: 20px;
-    }
-    p {
+      line-height: 24px;
       margin: 0;
+    }
+    .person_work-name {
       font-weight: 400;
       font-size: 16px;
+      line-height: 19px;
+      margin: 0;
     }
   }
 }
