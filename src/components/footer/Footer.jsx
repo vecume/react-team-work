@@ -26,7 +26,6 @@ export default function Footer() {
                 <p>© 2020 Incon Ventures All rights reserved.</p>
               </a>
             </h1>
-            
           </div>
 
           <div className="footer__box__part-2">
