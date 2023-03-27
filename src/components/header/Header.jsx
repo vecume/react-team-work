@@ -6,17 +6,17 @@ export default function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header>
+    <header className='header'>
       <div className="container">
-        <div className="header-df">
+        <div className="header__df">
           <h1>
             <a href="/">
               <img src={img1} alt="Logo" />
             </a>
           </h1>
 
-          <nav>
-            <ul>
+          <nav className='header__nav'>
+            <ul className='header__ul'>
               <li>
                 <a href="#">Home</a>
               </li>
@@ -32,9 +32,9 @@ export default function Header() {
               <li>
                 <a href="#">Contact</a>
               </li>
-              <li className='menu-trigger' onClick={() => {setOpen(!open)}}>
+              <li className='header__menu__trigger' onClick={() => {setOpen(!open)}}>
                 <span>Lang</span>
-                <ul className={`drop-menu ${open ? 'active' : 'inactive'}`}>
+                <ul className={`header__drop__menu ${open ? 'active' : 'inactive'}`}>
                   <li>
                     <a href="#">Eng</a>
                   </li>

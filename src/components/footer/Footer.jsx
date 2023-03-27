@@ -8,18 +8,18 @@ import link4 from "./../../assets/Vector.svg";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div className="container">
-        <div className="text-box">
-          <h2>Let's talk about your next business challenge</h2>
-          <p>We're ready to be part of your adventure.</p>
-          <button>Get in touch</button>
+        <div className="footer__text__box">
+          <h2 className="footer__text__box_h2">Let's talk about your next business challenge</h2>
+          <p  className="footer__text__box_p">We're ready to be part of your adventure.</p>
+          <button className="footer__text__box__btn">Get in touch</button>
         </div>
 
-        <span></span>
+        <span className="footer__line__span"></span>
 
-        <div className="footer-box">
-          <div className="part-1">
+        <div className="footer__box">
+          <div className="footer__box__part-1">
             <h1>
               <a href="/">
                 <img src={logo} alt="logo" />
@@ -28,17 +28,17 @@ export default function Footer() {
             </h1>
           </div>
 
-          <div className="part-2">
+          <div className="footer__box__part-2">
             <h2>Visit us</h2>
             <p>Muminova 7/15, Mirzo Ulugbek d. Tashkent, Uzbekistan </p>
           </div>
 
-          <div className="part-3">
+          <div className="footer__box__part-3">
             <h2>Get in contact</h2>
             <p>+998 90 805 51 95 info@inconventures.com</p>
           </div>
 
-          <div className="part-4">
+          <div className="footer__box__part-4">
             <h2>Follow us</h2>
             <ul>
               <li>
