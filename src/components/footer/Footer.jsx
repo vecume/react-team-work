@@ -10,16 +10,16 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <div className="footer__text__box">
-          <h2 className="footer__text__box_h2">Let's talk about your next business challenge</h2>
-          <p  className="footer__text__box_p">We're ready to be part of your adventure.</p>
-          <button className="footer__text__box__btn">Get in touch</button>
+        <div className="footer__text-box">
+          <h2 className="footer__text-h2">Let's talk about your next business challenge</h2>
+          <p  className="footer__text-p">We're ready to be part of your adventure.</p>
+          <button className="footer__text-btn">Get in touch</button>
         </div>
 
-        <span className="footer__line__span"></span>
+        <span className="footer__line"></span>
 
         <div className="footer__box">
-          <div className="footer__box__part-1">
+          <div className="footer__part-1">
             <h1>
               <a href="/">
                 <img src={logo} alt="logo" />
@@ -28,17 +28,17 @@ export default function Footer() {
             </h1>
           </div>
 
-          <div className="footer__box__part-2">
+          <div className="footer__part-2">
             <h2>Visit us</h2>
             <p>Muminova 7/15, Mirzo Ulugbek d. Tashkent, Uzbekistan </p>
           </div>
 
-          <div className="footer__box__part-3">
+          <div className="footer__part-3">
             <h2>Get in contact</h2>
             <p>+998 90 805 51 95 info@inconventures.com</p>
           </div>
 
-          <div className="footer__box__part-4">
+          <div className="footer__part-4">
             <h2>Follow us</h2>
             <ul>
               <li>

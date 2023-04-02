@@ -27,7 +27,7 @@
   }
 }
 
-.header__menu__trigger {
+.header__trigger {
   cursor: pointer;
   height: 10px;
   z-index: 1;
@@ -38,17 +38,17 @@
 }
 
 
-.header__drop__menu.active {
+.header__drop.active {
   opacity: 1;
   visibility: visible;
 }
 
-.header__drop__menu.inactive {
+.header__drop.inactive {
   opacity: 0;
   visibility: hidden;
 }
 
-.header__drop__menu {
+.header__drop {
   margin-top: 10px;
   padding: 10px 15px;
   background-color: #313136;

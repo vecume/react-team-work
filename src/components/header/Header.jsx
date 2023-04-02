@@ -32,9 +32,9 @@ export default function Header() {
               <li>
                 <a href="#">Contact</a>
               </li>
-              <li className='header__menu__trigger' onClick={() => {setOpen(!open)}}>
+              <li className='header__trigger' onClick={() => {setOpen(!open)}}>
                 <span>Lang</span>
-                <ul className={`header__drop__menu ${open ? 'active' : 'inactive'}`}>
+                <ul className={`header__drop ${open ? 'active' : 'inactive'}`}>
                   <li>
                     <a href="#">Eng</a>
                   </li>
