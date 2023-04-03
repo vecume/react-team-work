@@ -1,0 +1,25 @@
+.line {
+  background-color: #dddfe2;
+  width: 404px;
+  height: 1px;
+  display: block;
+}
+
+.line-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #b7b9cc;
+}
+
+.line-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
