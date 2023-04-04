@@ -1,0 +1,12 @@
+{
+  "title": "Klaes",
+  "desc": "We revamped an online presence of the leading multilingual content service provider, serving 6000+ brands. The transformation included the design, development, and back-office integrations.",
+  "texts": [
+    { "text": "WEB DEVELOPMENT" },
+    { "text": "WEBSHOP" },
+    { "text": "MOBILE APP" }
+  ],
+  "links": [],
+  "link": "Full information",
+  "images": [{ "img": "/img/laptop.png" }, { "img": "/img/gadgets.png" }]
+}
