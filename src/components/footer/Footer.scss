@@ -160,7 +160,10 @@
   }
 
   .footer__part3-h2 {
+    top: 10px;
     margin-left: 73px;
+    position: relative;
+    right: -35px;
   }
 
   .footer__part4-h2 {
@@ -218,16 +221,19 @@
   .footer__part-1 {
     width: 100%;
     margin-left: -21px;
+    height: 80px;
   }
 
   .footer__part-2 {
     width: 100%;
     margin-left: -48px;
+    height: 80px;
   }
 
   .footer__part-3 {
     width: 100%;
     margin-left: -54px;
+    height: 95px;
   }
 
   .footer__part-4 {
@@ -235,7 +241,8 @@
     margin-left: 37px;
 
     ul {
-      margin-left: -43px;
+      margin-left: -33px;
+      margin-top: -5px;
       gap: 14px;
     }
   }

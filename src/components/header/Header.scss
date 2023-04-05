@@ -72,8 +72,8 @@
   }
 
   .header__mobile-logo {
-    margin-left: -264px;
-    margin-top: 34px;
+    margin-top: -138%;
+    position: absolute;
   }
 
   .header__mobile-btn {
@@ -104,7 +104,7 @@
     justify-content: center;
     position: fixed;
     right: 0;
-    left: -350px;
+    left: -380px;
     font-size: 21px;
     bottom: 0;
     text-align: center;
@@ -122,6 +122,6 @@
 
   .active {
     left: 0;
-    top: -17px;
+    top: -16px;
   }
 }
