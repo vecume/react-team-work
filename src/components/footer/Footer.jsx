@@ -15,7 +15,7 @@ export default function Footer() {
           <p  className="footer__text-p">We're ready to be part of your adventure.</p>
           <button className="footer__text-btn">Get in touch</button>
         </div>
-
+    
         <span className="footer__line"></span>
 
         <div className="footer__box">
@@ -23,23 +23,23 @@ export default function Footer() {
             <h1>
               <a href="/">
                 <img src={logo} alt="logo" />
-                <p>© 2020 Incon Ventures All rights reserved.</p>
               </a>
             </h1>
+            <p className="footer__p">© 2020 Incon Ventures All rights reserved.</p>
           </div>
 
           <div className="footer__part-2">
-            <h2>Visit us</h2>
+            <h2 className="footer__part2-h2">Visit us</h2>
             <p>Muminova 7/15, Mirzo Ulugbek d. Tashkent, Uzbekistan </p>
           </div>
 
           <div className="footer__part-3">
-            <h2>Get in contact</h2>
+            <h2 className="footer__part3-h2">Get in contact</h2>
             <p>+998 90 805 51 95 info@inconventures.com</p>
           </div>
 
           <div className="footer__part-4">
-            <h2>Follow us</h2>
+            <h2 className="footer__part4-h2">Follow us</h2>
             <ul>
               <li>
                 <a href="#">
