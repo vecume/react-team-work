@@ -1,4 +1,4 @@
-.servisecCard__header {
+.services-card__header {
   margin: 0;
   padding-top: 20px;
   padding-bottom: 22px;
@@ -10,7 +10,7 @@
   color: #080f20;
 }
 
-.servisecCard__content {
+.services-card__content {
   font-family: "Inter";
   margin: 0;
   max-width: 487px;
@@ -22,13 +22,13 @@
   padding-bottom: 25px;
 }
 
-.servisecCard__subservices {
+.services-card__subservices {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px 25px;
 }
 
-.servisecCard {
+.services-card {
   padding-top: 60px;
   // display: flex;
   // flex-wrap: wrap;
@@ -40,11 +40,11 @@
   justify-items: center;
 }
 
-.servisecCard__container {
+.services-card__container {
   max-width: 520px;
 }
 
-.servisecCard__subservicesNum {
+.services-card__subservices-num {
   font-family: "Inter";
   margin: 0;
   font-weight: 400;
@@ -54,7 +54,7 @@
   color: #4f4f4f;
 }
 
-.servisecCard__subservicesContent {
+.services-card__subservices-content {
   margin: 0;
   font-family: "Inter";
   font-style: normal;

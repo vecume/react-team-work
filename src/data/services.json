@@ -1,0 +1,146 @@
+[
+  {
+    "id": "0",
+    "img": "./services-icon-1.svg",
+    "header": "Marketing Solutions",
+    "content": "We create digital marketing strategy across digital channels that help our clients grow and stay ahead of the competition.",
+    "subservices": [
+      {
+        "number": "01",
+        "content": "Social Media Marketing (SMM)"
+      },
+      {
+        "number": "02",
+        "content": "eCommerce"
+      },
+      {
+        "number": "03",
+        "content": "Search Engine Optimisation"
+      },
+      {
+        "number": "04",
+        "content": "Search Engine Marketing"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "img": "./services-icon-2.svg",
+    "header": "Software Design & Development",
+    "content": "We believe content, brand and design are the key aspects that communicate your business values to your customers and we help you make a lasting impact.",
+    "subservices": [
+      {
+        "number": "01",
+        "content": "Branding"
+      },
+      {
+        "number": "02",
+        "content": "UI/UX Design"
+      },
+      {
+        "number": "03",
+        "content": "Custom Web Development"
+      },
+      {
+        "number": "04",
+        "content": "Content Creation"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "img": "./services-icon-3.svg",
+    "header": "Mobile App Development",
+    "content": "Our team of talented developers work with all major digital platforms to create a robust omni-channel digital customer experience.",
+    "subservices": [
+      {
+        "number": "01",
+        "content": "Plan"
+      },
+      {
+        "number": "02",
+        "content": "Develop"
+      },
+      {
+        "number": "03",
+        "content": "Test"
+      },
+      {
+        "number": "04",
+        "content": "Launch"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "img": "./services-icon-4.svg",
+    "header": "Business Support & HR Solutions",
+    "content": "We will help the clients to develop their business, we will study their business to promote it, and to develop it.",
+    "subservices": [
+      {
+        "number": "01",
+        "content": "Automation"
+      },
+      {
+        "number": "02",
+        "content": "Optimisation"
+      },
+      {
+        "number": "03",
+        "content": "Analysis & Insights"
+      },
+      {
+        "number": "04",
+        "content": "Reporting"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "img": "./services-icon-5.svg",
+    "header": "International Consulting & Project Management",
+    "content": "It covers bringing foreign companies to collaboration, and import export solutions.",
+    "subservices": [
+      {
+        "number": "01",
+        "content": "Identifying new partner"
+      },
+      {
+        "number": "02",
+        "content": "Develop strategic plans"
+      },
+      {
+        "number": "03",
+        "content": "Launch or Execution"
+      },
+      {
+        "number": "04",
+        "content": "Monitor & Control"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "img": "./services-icon-6.svg",
+    "header": "Real Estate &Property Management",
+    "content": "We provide the service for people to buy and sell their properties. We will help people to find their right properties",
+    "subservices": [
+      {
+        "number": "01",
+        "content": "Tenant Screening"
+      },
+      {
+        "number": "02",
+        "content": "Maintenance & Repair"
+      },
+      {
+        "number": "03",
+        "content": "Rent Collection"
+      },
+      {
+        "number": "04",
+        "content": "Management Agreement"
+      }
+    ]
+  }
+]

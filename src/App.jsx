@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.scss";
 import Header from "./components/header/Header";
+import Services from "./components/services/Services";
 
 function App() {
-  return <Header />;
+  return <Services />;
 }
 
 export default App;
