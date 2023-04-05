@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Header.scss";
 import img1 from "./../../assets/Logo.svg";
+import img2 from "./../../assets/full_w_logo.svg"
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 export default function Header() {
@@ -19,6 +20,12 @@ export default function Header() {
           </h1>
 
           <nav className='header__nav'>
+          <h1 className='header__mobile-logo'>
+            <a href="/">
+              <img src={img2} alt="Logo" />
+            </a>
+          </h1>
+          
             <ul className={burger ? ['header__ul', 'active'].join(' ') : ['header__ul']}>
               <li>
                 <a className='header__menu-link' href="#">Home</a>

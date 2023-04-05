@@ -71,13 +71,33 @@
     width: 100%;
   }
 
+  .header__mobile-logo {
+    z-index: 10;
+    position: relative;
+    margin-left: -264px;
+    margin-top: 34px;
+  }
+
   .header__mobile-btn {
     display: block;
     position: absolute;
-    right: 10px;
-    top: 27px;
+    width: 40px;
+    height: 40px;
+    right: 25px;
+    border: 1px solid #313F5B;
+    border-radius: 50%;
+    background: #313F5B;
+    top: 43px;
+    padding: 9px 9px;
+    color: #fff;
     cursor: pointer;
     z-index: 1;
+
+    svg {
+      width: 21px;
+      height: 20px;
+      display: block;
+    }
   }
 
   .header__ul {
@@ -86,6 +106,7 @@
     justify-content: center;
     position: fixed;
     right: 0;
+    left: -350px;
     font-size: 21px;
     bottom: 0;
     text-align: center;
@@ -98,6 +119,7 @@
 
   .header__ul li a {
     color: #fff;
+    margin-left: -35px;
   }
 
   .active {
