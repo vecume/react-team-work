@@ -1,0 +1,11 @@
+{
+  "title": "Marketing Solutions",
+  "desc": "Our clients' success is at the heart of what we do, so we work to understand client needs in a responsive and proactive manner, and concentrate our efforts to create results that add value to your bottom line.",
+  "isSmall": true,
+  "buttons": [
+    { 
+      "text": "Discover all", 
+      "id": 1 
+    }
+  ]
+}
