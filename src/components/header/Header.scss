@@ -72,8 +72,6 @@
   }
 
   .header__mobile-logo {
-    z-index: 10;
-    position: fixed;
     margin-left: -264px;
     margin-top: 34px;
   }
@@ -101,7 +99,6 @@
   }
 
   .header__ul {
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
