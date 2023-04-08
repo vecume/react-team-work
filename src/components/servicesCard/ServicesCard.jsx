@@ -7,21 +7,26 @@ export default function ServicesCard({ services }) {
       <h2 className="services-card__header">{services.header}</h2>
       <p className="services-card__content">{services.content}</p>
       <div className="services-card__subservices">
-        <div>
-          {services.subservices.map((subservice) => (
-            <p className="services-card__subservices-num">
-              {subservice.number}
-            </p>
-            // (
-            //   <h3
-            //     key={subservice.number}
-            //     className="services-card__subservices-content"
-            //   >
-            //     {subservice.content}
-            //   </h3>
-            // )
-          ))}
-          {/* {services.subservices.map((subservice) => (
+        {services.subservices.map((subservice) => (
+          <>
+            <div>
+              <>
+                <p className="services-card__subservices-num">
+                  {subservice.number}
+                </p>
+              </>
+              <>
+                <h3
+                  key={subservice.number}
+                  className="services-card__subservices-content"
+                >
+                  {subservice.content}
+                </h3>
+              </>
+            </div>
+          </>
+        ))}
+        {/* {services.subservices.map((subservice) => (
             <h3
               key={subservice.number}
               className="services-card__subservices-content"
@@ -29,7 +34,7 @@ export default function ServicesCard({ services }) {
               {subservice.content}
             </h3>
           ))} */}
-        </div>
+
         {/* <div>
           <p className="services-card__subservices-num">
             {services.subservices[0].number}
