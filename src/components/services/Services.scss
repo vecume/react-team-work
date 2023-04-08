@@ -1,5 +1,4 @@
 .services-card__header {
-  margin: 0;
   padding-top: 20px;
   padding-bottom: 22px;
   font-family: "Inter";
@@ -8,11 +7,15 @@
   line-height: 41px;
   font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #080f20;
+
+  @media (max-width: 630px) {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+  }
 }
 
 .services-card__content {
-  font-family: "Inter";
-  margin: 0;
   max-width: 487px;
   font-weight: 400;
   font-size: 16px;
@@ -38,6 +41,20 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+
+  @media (max-width: 630px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    @media (max-width: 630px) {
+      width: 50px;
+      height: 50px;
+    }
+  }
 }
 
 .services-card__container {
@@ -45,8 +62,6 @@
 }
 
 .services-card__subservices-num {
-  font-family: "Inter";
-  margin: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -55,7 +70,6 @@
 }
 
 .services-card__subservices-content {
-  margin: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -63,4 +77,9 @@
   line-height: 22px;
   font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #080f20;
+
+  @media (max-width: 630px) {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
