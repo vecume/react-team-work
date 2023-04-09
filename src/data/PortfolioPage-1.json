@@ -1,0 +1,12 @@
+{
+  "title": "Festimap",
+  "desc": "We completely overhauled the website of the leading Dutch business software company. The move to Craft CMS has increased both engagement and the amount of demo requests.",
+  "texts": [
+    { "text": "DESIGN" },
+    { "text": "BRANDING" },
+    { "text": "WEB DEVELOPMENT" }
+  ],
+  "links": [],
+  "link": "Visit website",
+  "images": [{ "img": "/img/proof.png" }, { "img": "/img/agendrix.png" }]
+}

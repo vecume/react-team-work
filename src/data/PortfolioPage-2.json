@@ -1,0 +1,12 @@
+{
+  "title": "Business Cards",
+  "desc": "We created an iOS native iPad application to allow the airline carriers to perform fully automated drone airplane inspections. The project included custom DJI drone integrations and reduces the inspection time by 6x.",
+  "texts": [{ "text": "GRAPHIC DESIGN" }, { "text": "BUSINESS CARD" }],
+  "links": [
+    { "logo": "/img/Telegram.svg" },
+    { "logo": "/img/Facebook.svg" },
+    { "logo": "/img/Instagram.svg" },
+    { "logo": "/img/Portfolio.svg" }
+  ],
+  "images": [{ "img": "/img/McGreevy.png" }, { "img": "/img/agendrix.png" }]
+}
