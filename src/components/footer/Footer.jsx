@@ -10,10 +10,14 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-          <h2 className="footer__text-h2">Let's talk about your next business challenge</h2>
-          <p  className="footer__text-p">We're ready to be part of your adventure.</p>
-          <button className="footer__text-btn">Get in touch</button>
-    
+        <h2 className="footer__text-h2">
+          Let's talk about your next business challenge
+        </h2>
+        <p className="footer__text-p">
+          We're ready to be part of your adventure.
+        </p>
+        <button className="footer__text-btn">Get in touch</button>
+
         <span className="footer__line"></span>
 
         <div className="footer__box">
@@ -23,17 +27,23 @@ export default function Footer() {
                 <img src={logo} alt="logo" />
               </a>
             </h1>
-            <p className="footer__p">© 2020 Incon Ventures All rights reserved.</p>
+            <p className="footer__p">
+              © 2020 Incon Ventures All rights reserved.
+            </p>
           </div>
 
           <div className="footer__part-2">
             <h2 className="footer__part2-h2">Visit us</h2>
-            <p className="footer__mob-p1">Muminova 7/15, Mirzo Ulugbek d. Tashkent, Uzbekistan </p>
+            <p className="footer__mob-p1">
+              Muminova 7/15, Mirzo Ulugbek d. Tashkent, Uzbekistan{" "}
+            </p>
           </div>
 
           <div className="footer__part-3">
             <h2 className="footer__part3-h2">Get in contact</h2>
-            <p className="footer__mob-p2">+998 90 805 51 95 info@inconventures.com</p>
+            <p className="footer__mob-p2">
+              +998 90 805 51 95 info@inconventures.com
+            </p>
           </div>
 
           <div className="footer__part-4">
