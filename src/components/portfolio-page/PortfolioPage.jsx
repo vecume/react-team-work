@@ -14,28 +14,23 @@ export default function PortfolioPage({
   links,
 }) {
   return (
-    <div
-      className="container"
-      style={{ display: "flex", marginTop: 160 + "px" }}
-    >
-      <div style={{ marginRight: 87 + "px" }}>
+    <div className="container portfolio">
+      <div className="portfolio__inner">
         <h2>{title}</h2>
         <p>{desc}</p>
-        <div
-          style={{ marginBottom: 49 + "px", display: "flex", gap: 21 + "px" }}
-        >
+        <div className="portfolio__texts">
           {texts.map((item) =>
             ({ texts } ? <Text text={item.text} key={uuidv4()} /> : "")
           )}
         </div>
         <a href="#">{link}</a>
-        <div style={{ display: "flex", gap: 15 + "px" }}>
+        <div className="portfolio__links">
           {links.map((item) =>
             ({ links } ? <Link link={item.logo} key={uuidv4()} /> : "")
           )}
         </div>
       </div>
-      <div style={{ display: "flex", gap: 21 + "px" }}>
+      <div className="portfolio__imgs">
         {images.map((item) => (
           <Img img={item.img} key={uuidv4()} />
         ))}
