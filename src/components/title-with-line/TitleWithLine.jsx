@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Title_With_Line.scss";
+import "./TitleWithLine.scss";
 
-export default function Title_With_Line({heading}) {
+export default function TitleWithLine({heading}) {
   return (
     <div className="title-with-line">
       <span className="title-line"></span>
