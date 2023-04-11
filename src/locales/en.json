@@ -1,0 +1,14 @@
+{
+    "header": {
+        "home": "Home",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "about": "About",
+        "contact": "Contact",
+        "lang": "Lang"
+    },
+    "languages": {
+        "en": "English",
+        "uz": "Uzbek"
+    }
+}

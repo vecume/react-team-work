@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Header.scss";
 import img1 from "./../../assets/Logo.svg";
 import img2 from "./../../assets/full_w_logo.svg";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { LanguageContext } from "../../context/LanguageContext";
 
-export default function Header() {
+export default function Header(children) {
   const [open, setOpen] = useState(false);
   const [burger, setBurger] = useState(false);
+  const { language, languages, strings, changeLanguage } =
+    useContext(LanguageContext);
 
   return (
     <header className="header">
@@ -31,27 +34,27 @@ export default function Header() {
               </p>
               <li>
                 <a className="header__menu-link" href="#">
-                  Home
+                  {strings.header.home}
                 </a>
               </li>
               <li>
                 <a className="header__menu-link" href="#">
-                  Services
+                  {strings.header.services}
                 </a>
               </li>
               <li>
                 <a className="header__menu-link" href="#">
-                  Portfolio
+                  {strings.header.portfolio}
                 </a>
               </li>
               <li>
                 <a className="header__menu-link" href="#">
-                  About
+                  {strings.header.about}
                 </a>
               </li>
               <li>
                 <a className="header__menu-link" href="#">
-                  Contact
+                  {strings.header.about}
                 </a>
               </li>
               <li
@@ -61,18 +64,28 @@ export default function Header() {
                 }}
               >
                 <a className="header__menu-link " href="#">
-                  Lang
+                  {strings.header.lang}
                 </a>
                 <ul className={`header__drop ${open ? "active" : "inactive"}`}>
                   <li>
-                    <a className="header__menu-link" href="#">
-                      Eng
-                    </a>
+                    <button
+                      type="button"
+                      onClick={() => changeLanguage("uz")}
+                      className="header__menu-link btn-lang"
+                      href="#"
+                    >
+                      {strings.languages.uz}
+                    </button>
                   </li>
                   <li>
-                    <a className="header__menu-link" href="#">
-                      Ru
-                    </a>
+                    <button
+                      type="button"
+                      onClick={() => changeLanguage("en")}
+                      className="header__menu-link btn-lang"
+                      href="#"
+                    >
+                      {strings.languages.en}
+                    </button>
                   </li>
                 </ul>
               </li>

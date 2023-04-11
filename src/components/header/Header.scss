@@ -17,7 +17,7 @@
       color: rgb(68, 63, 63);
 
       &:active {
-        color: rgb(68, 63, 63);
+        color: rgb(167, 158, 158);
       }
 
       &:hover {
@@ -64,6 +64,21 @@
 
 .header__mobile-btn {
   display: none;
+}
+
+.btn-lang {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  height: 25px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  transition: 0.5s ease;
+
+  &:hover {
+    color: #bbacac;
+  }
 }
 
 @media (max-width: 347px) {
