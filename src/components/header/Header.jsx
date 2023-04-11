@@ -74,7 +74,7 @@ export default function Header(children) {
                       className="header__menu-link btn-lang"
                       href="#"
                     >
-                      {strings.languages.uz}
+                      {strings.languages?.uz}
                     </button>
                   </li>
                   <li>
@@ -84,7 +84,7 @@ export default function Header(children) {
                       className="header__menu-link btn-lang"
                       href="#"
                     >
-                      {strings.languages.en}
+                      {strings.languages?.en}
                     </button>
                   </li>
                 </ul>
