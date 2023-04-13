@@ -36,7 +36,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="portfolio__content">
+        <div className="portfolio__content none">
           <div className="portfolio__content-inner">
             <h2 className="portfolio__content-inner-title">Vormats</h2>
             <p className="portfolio__content-inner-text">
