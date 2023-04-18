@@ -5,7 +5,13 @@ export default function Team() {
   return (
     <div className="people">
       <div className="person">
-        <img src="/sardor.jpg" alt="Sardor" width={"64"} height={"64px"} />
+        <img
+          src="/sardor.jpg"
+          alt="sardor"
+          className="person_img"
+          width={"64"}
+          height={"64px"}
+        />
         <div className="person_info">
           <h6 className="person_name">Sardor Sadatov</h6>
           <p className="person_work-name">Founder & CEO</p>
