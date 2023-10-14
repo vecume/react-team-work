@@ -1,0 +1,14 @@
+{
+    "header": {
+        "home": "Bosh sahifa",
+        "services": "Xizmatlar",
+        "portfolio": "Portfolio",
+        "about": "Biz Haqimizda",
+        "contact": "Bo'g'lanish",
+        "lang": "Til"
+    },
+    "languages": {
+        "en": "Inglizcha",
+        "uz": "O'zbekcha"
+    }
+}
